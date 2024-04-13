@@ -93,7 +93,6 @@ class DeckPickerFloatingActionMenuTest {
             on { findViewById<View>(R.id.studyoptions_fragment) } doReturn studyOptionsFrame
             on { findViewById<TextView>(R.id.add_note_label) } doReturn addNoteLabel
 
-            on { findViewById<FloatingActionButton>(R.id.add_shared_action) } doReturn addSharedButton
             on { findViewById<FloatingActionButton>(R.id.add_deck_action) } doReturn addDeckButton
             on { findViewById<FloatingActionButton>(R.id.add_filtered_deck_action) } doReturn addDeckButton
             on { findViewById<TextView>(R.id.add_shared_label) } doReturn addSharedLabel
